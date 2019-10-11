@@ -34,15 +34,15 @@ class App extends Component {
               </Navbar.Brand>
               <Navbar.Collapse className="justify-content-end">
                 <Nav>
-                  <Nav>
+                  <Nav.Link>
                     <Link to="/academic-overview">Academic overview </Link>
-                  </Nav>
-                  <Nav>
+                  </Nav.Link>
+                  <Nav.Link>
                     <Link to="/who-we-are">Who we are</Link>
-                  </Nav>
-                  <Nav>
+                  </Nav.Link>
+                  <Nav.Link>
                     <Link to="/our-campuses">Our Campuses</Link>
-                  </Nav>
+                  </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
               <Form inline>
