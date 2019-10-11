@@ -46,9 +46,9 @@ class App extends Component {
                 </Nav>
               </Navbar.Collapse>
               <Form inline>
-                <Button to="/application" variant="outline-dark">
-                  APPLY ONLINE
-                </Button>
+                <Link to="/application">
+                  <Button variant="outline-dark">APPLY ONLINE</Button>
+                </Link>
               </Form>
             </Navbar>
             <br />
