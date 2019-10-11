@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDom from "react-dom";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 //Components
 import Home from "./components/home";
@@ -34,9 +34,9 @@ class App extends Component {
               </Navbar.Brand>
               <Navbar.Collapse className="justify-content-end">
                 <Nav>
-                  <Nav.Link to="/academic-overview">Academic overview</Nav.Link>
-                  <Nav.Link to="/who-we-are">Who we are</Nav.Link>
-                  <Nav.Link to="/our-campuses">Our Campuses</Nav.Link>
+                  <Link to="/academic-overview">Academic overview</Link>
+                  <Link to="/who-we-are">Who we are</Link>
+                  <Link to="/our-campuses">Our Campuses</Link>
                 </Nav>
               </Navbar.Collapse>
               <Form inline>
