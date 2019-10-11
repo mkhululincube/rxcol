@@ -13,7 +13,7 @@ const Footer = () => {
           <Navbar />
           <Nav className="mr-auto">
             <Nav.Link href="#">
-              © Copyright 2019 Leadermold Private Ltd
+              © Copyright 2019 Leadermold Private Limited
             </Nav.Link>
             <Nav.Link href="#">Contact us</Nav.Link>
           </Nav>
